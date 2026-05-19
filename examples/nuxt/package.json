@@ -14,7 +14,7 @@
     "@auth/prisma-adapter": "^2.8.0",
     "@electric-sql/pglite": "^0.2.17",
     "@prisma/client": "^6.10.1",
-    "nuxt": "^3.16.1",
+    "nuxt": "^3.21.6",
     "pathe": "^2.0.3",
     "pglite-prisma-adapter": "workspace:*",
     "vue": "^3.5.13",
