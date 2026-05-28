@@ -15,8 +15,8 @@ importers:
         specifier: ^2.28.1
         version: 2.28.1
       turbo:
-        specifier: ^2.4.4
-        version: 2.4.4
+        specifier: ^2.9.14
+        version: 2.9.14
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -840,6 +840,7 @@ packages:
 
   '@oxc-parser/wasm@0.60.0':
     resolution: {integrity: sha512-Dkf9/D87WGBCW3L0+1DtpAfL4SrNsgeRvxwjpKCtbH7Kf6K+pxrT0IridaJfmWKu1Ml+fDvj+7HEyBcfUC/TXQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@oxc-project/types@0.56.5':
     resolution: {integrity: sha512-skY3kOJwp22W4RkaadH1hZ3hqFHjkRrIIE0uQ4VUg+/Chvbl+2pF+B55IrIk2dgsKXS57YEUsJuN6I6s4rgFjA==}
@@ -1250,6 +1251,36 @@ packages:
   '@trysound/sax@0.2.0':
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
+
+  '@turbo/darwin-64@2.9.14':
+    resolution: {integrity: sha512-t7QiPflaEyBE4oayeZtSmu4mEfjgIrcNlNNl1z1dmIVPqEdtA7+CfTf8d7KXsOGPh6aNgWjKxyvQg9uGfDQF+A==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@turbo/darwin-arm64@2.9.14':
+    resolution: {integrity: sha512-d23147mC9BsCPA9mJ0h/ubcpbRgcJBXbcG3+Vq7YLhjz3IXuvQsJ1UXH8f4MD76ZjJ4m/E4aRdJV+MW88CDfbw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@turbo/linux-64@2.9.14':
+    resolution: {integrity: sha512-P3ZKB5tuUDdDQWuAsACGUR1qv9W7BNWxdxqVJ0kZNuNNPRaVYTPPikLcp79+GiEcW3npsR+KyP38lnQiBc5aSA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@turbo/linux-arm64@2.9.14':
+    resolution: {integrity: sha512-ZRTlzcUMrrPv9ZuDzRF9n60Ym13bKeG9jDB8WjxyLhWNzV+AJQN+zdpIk3NJYf2zQsGUm1mNar2P0elRzLw25g==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@turbo/windows-64@2.9.14':
+    resolution: {integrity: sha512-exanwN6sIduZwykYeiTQj8kCmOhazP5WOz3bvXMcYtjhL6Z3iRWLewKrXCBq0bqwSP3iBMb/AerRCnHI4lx46A==}
+    cpu: [x64]
+    os: [win32]
+
+  '@turbo/windows-arm64@2.9.14':
+    resolution: {integrity: sha512-fVdCsnmYoKICsycbWuuGp6Jvi51/3G/UluFWuAUCvR8PIW5IJkAk5BM9UF8PSm0Q2IphWHFZjYEgjHsh3B9y/g==}
+    cpu: [arm64]
+    os: [win32]
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -2062,12 +2093,13 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -3228,6 +3260,7 @@ packages:
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   term-size@2.2.1:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
@@ -3293,38 +3326,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  turbo-darwin-64@2.4.4:
-    resolution: {integrity: sha512-5kPvRkLAfmWI0MH96D+/THnDMGXlFNmjeqNRj5grLKiry+M9pKj3pRuScddAXPdlxjO5Ptz06UNaOQrrYGTx1g==}
-    cpu: [x64]
-    os: [darwin]
-
-  turbo-darwin-arm64@2.4.4:
-    resolution: {integrity: sha512-/gtHPqbGQXDFhrmy+Q/MFW2HUTUlThJ97WLLSe4bxkDrKHecDYhAjbZ4rN3MM93RV9STQb3Tqy4pZBtsd4DfCw==}
-    cpu: [arm64]
-    os: [darwin]
-
-  turbo-linux-64@2.4.4:
-    resolution: {integrity: sha512-SR0gri4k0bda56hw5u9VgDXLKb1Q+jrw4lM7WAhnNdXvVoep4d6LmnzgMHQQR12Wxl3KyWPbkz9d1whL6NTm2Q==}
-    cpu: [x64]
-    os: [linux]
-
-  turbo-linux-arm64@2.4.4:
-    resolution: {integrity: sha512-COXXwzRd3vslQIfJhXUklgEqlwq35uFUZ7hnN+AUyXx7hUOLIiD5NblL+ETrHnhY4TzWszrbwUMfe2BYWtaPQg==}
-    cpu: [arm64]
-    os: [linux]
-
-  turbo-windows-64@2.4.4:
-    resolution: {integrity: sha512-PV9rYNouGz4Ff3fd6sIfQy5L7HT9a4fcZoEv8PKRavU9O75G7PoDtm8scpHU10QnK0QQNLbE9qNxOAeRvF0fJg==}
-    cpu: [x64]
-    os: [win32]
-
-  turbo-windows-arm64@2.4.4:
-    resolution: {integrity: sha512-403sqp9t5sx6YGEC32IfZTVWkRAixOQomGYB8kEc6ZD+//LirSxzeCHCnM8EmSXw7l57U1G+Fb0kxgTcKPU/Lg==}
-    cpu: [arm64]
-    os: [win32]
-
-  turbo@2.4.4:
-    resolution: {integrity: sha512-N9FDOVaY3yz0YCOhYIgOGYad7+m2ptvinXygw27WPLQvcZDl3+0Sa77KGVlLSiuPDChOUEnTKE9VJwLSi9BPGQ==}
+  turbo@2.9.14:
+    resolution: {integrity: sha512-BQqXRr4UoWI3UPFrtznCLykYHxwxWh53iCB57x092jPMjIlW1wnm3N895g5irpiXmnxUhREBB0n6+y8BHhs4nw==}
     hasBin: true
 
   type-fest@4.38.0:
@@ -3375,6 +3378,7 @@ packages:
 
   unplugin-vue-router@0.12.0:
     resolution: {integrity: sha512-xjgheKU0MegvXQcy62GVea0LjyOdMxN0/QH+ijN29W62ZlMhG7o7K+0AYqfpprvPwpWtuRjiyC5jnV2SxWye2w==}
+    deprecated: 'Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html'
     peerDependencies:
       vue-router: ^4.4.0
     peerDependenciesMeta:
@@ -4936,6 +4940,24 @@ snapshots:
   '@speed-highlight/core@1.2.7': {}
 
   '@trysound/sax@0.2.0': {}
+
+  '@turbo/darwin-64@2.9.14':
+    optional: true
+
+  '@turbo/darwin-arm64@2.9.14':
+    optional: true
+
+  '@turbo/linux-64@2.9.14':
+    optional: true
+
+  '@turbo/linux-arm64@2.9.14':
+    optional: true
+
+  '@turbo/windows-64@2.9.14':
+    optional: true
+
+  '@turbo/windows-arm64@2.9.14':
+    optional: true
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
@@ -7193,32 +7215,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  turbo-darwin-64@2.4.4:
-    optional: true
-
-  turbo-darwin-arm64@2.4.4:
-    optional: true
-
-  turbo-linux-64@2.4.4:
-    optional: true
-
-  turbo-linux-arm64@2.4.4:
-    optional: true
-
-  turbo-windows-64@2.4.4:
-    optional: true
-
-  turbo-windows-arm64@2.4.4:
-    optional: true
-
-  turbo@2.4.4:
+  turbo@2.9.14:
     optionalDependencies:
-      turbo-darwin-64: 2.4.4
-      turbo-darwin-arm64: 2.4.4
-      turbo-linux-64: 2.4.4
-      turbo-linux-arm64: 2.4.4
-      turbo-windows-64: 2.4.4
-      turbo-windows-arm64: 2.4.4
+      '@turbo/darwin-64': 2.9.14
+      '@turbo/darwin-arm64': 2.9.14
+      '@turbo/linux-64': 2.9.14
+      '@turbo/linux-arm64': 2.9.14
+      '@turbo/windows-64': 2.9.14
+      '@turbo/windows-arm64': 2.9.14
 
   type-fest@4.38.0: {}
 
